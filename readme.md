@@ -31,6 +31,7 @@ To use the Imgboxify, you first need to create an instance of the `Imgbox` class
 
 ```javascript
 import Imgbox from 'image-uploader';
+// const { default: Imgbox } = require("imgboxify");
 
 const uploader = await Imgbox.create();
 const result = await uploader.uploadImages(['path/to/image1.jpg', 'path/to/image2.png']);

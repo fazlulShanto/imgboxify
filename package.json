@@ -1,0 +1,51 @@
+{
+  "name": "imgboxify",
+  "version": "1.0.1",
+  "description": "A script to automate image upload to imgbox.",
+  "main": "dist/Imgbox.js",
+  "types": "dist/Imgbox.d.ts",
+  "scripts": {
+    "test": "tsx test/imgbox.test.ts",
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "author": "Fazlul Hoque",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3",
+    "@types/node": "^22.7.6"
+  },
+  "dependencies": {},
+  "keywords": [
+    "imgbox",
+    "free",
+    "photo",
+    "imgbox.com",
+    "host",
+    "img host",
+    "imgbb",
+    "image",
+    "cloud",
+    "upload",
+    "image-upload",
+    "image-hosting",
+    "image-uploader",
+    "automated-upload",
+    "file-upload",
+    "upload-api",
+    "cloud-storage",
+    "image-automation",
+    "image-hosting-platform",
+    "imgbox-api",
+    "upload-service",
+    "image-manager",
+    "node-image-upload",
+    "image-processing"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazlulShanto/imgboxify"
+  },
+  "homepage": "https://github.com/fazlulShanto/imgboxify#readme"
+}

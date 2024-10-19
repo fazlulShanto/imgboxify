@@ -30,7 +30,7 @@ pnpm add imgboxify
 To use the Imgboxify, you first need to create an instance of the `Imgbox` class using the static `create` method. Then, you can use the `uploadImages` method to upload your images.
 
 ```javascript
-import Imgbox from 'image-uploader';
+import Imgbox from 'imgboxify';
 // const { default: Imgbox } = require("imgboxify");
 
 const uploader = await Imgbox.create();
@@ -112,7 +112,7 @@ interface IFileResult {
 ### Uploading images from file paths
 
 ```javascript
-import Imgbox from 'image-uploader';
+import Imgbox from 'imgboxify';
 
 async function uploadFromPaths() {
     const uploader = await Imgbox.create();
@@ -126,7 +126,7 @@ uploadFromPaths();
 ### Uploading images from buffers
 
 ```javascript
-import Imgbox from 'image-uploader';
+import Imgbox from 'imgboxify';
 import fs from 'fs/promises';
 
 async function uploadFromBuffers() {

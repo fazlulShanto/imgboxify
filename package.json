@@ -1,6 +1,6 @@
 {
   "name": "imgboxify",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A script to automate image upload to imgbox.",
   "main": "dist/Imgbox.js",
   "types": "dist/Imgbox.d.ts",
